@@ -30,4 +30,26 @@ print("Hola usuario:", cadena2)
 print(numero, cadena1, cadena2)
 print(type(str(numero)))
 
+#Debanado de Cadenas Substrings
+cadenaDebanado = "Hola vengo a contar la cantidad de caracteres de esta cadena"
+print(len(cadenaDebanado))
+print(cadenaDebanado[2]) #Toma la l de la cadena anterior, por que es el caracter 3 (la cuenta empieza en 0)
+print(cadenaDebanado[0 : 10])
+print(cadenaDebanado[0 : 32])
+print(cadenaDebanado[-10 : -3]) #Esto es desde el final hacia atras
+print(cadenaDebanado [: : 2]) #Imprime la cadena cada 2 caracteres
+print(cadenaDebanado[: : -1]) #Imprime la cadena invertida
+print (cadenaDebanado + cadenaDebanado[: : -1]) #Imprime la cadena y concatena la cadena invertida
 
+#Metodos de Python
+cadena = "Estoy utilizando metodos de Python"
+#convierte todas las Mayusculas a minusculas
+print(cadena.lower())
+#inverso
+print(cadena.upper())
+#Capitalize hace que la primer letra se convierta en mayusucula
+print(cadena.capitalize())
+#Title va a convertir la primer letra de cada palabra en mayuscula
+print(cadena.title())
+#Swapcase convierte las letras en su contraria (Si es mayuscula en miniscula si no al reves)
+print(cadena.swapcase())
