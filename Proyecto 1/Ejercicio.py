@@ -18,7 +18,7 @@ MUNIECA = 75
 
 totalVenta = (23 * PAYASO) + (54 * MUNIECA)
 totalVenta = totalVenta / 100
-print("el peso total de la venta es " + str(totalVenta) + " kilos")
+print("el peso total de la venta es ", totalVenta, " kilos")
 
 #Ejercicio3
 #

@@ -18,3 +18,16 @@ print(cadenaTab)
 #\f coloca el simbolo &
 #\r elimina todo lo que tenga delante
 
+#Concatenacion de cadenas
+cadena1 = "Hola"
+cadena2 = "Mundo"
+numero = 1
+print(cadena1 + " " + cadena2)
+#* repite una palabra una cantidad x de veces
+print(cadena2 * 5)
+#la coma tambien sirve para concatenar
+print("Hola usuario:", cadena2)
+print(numero, cadena1, cadena2)
+print(type(str(numero)))
+
+
