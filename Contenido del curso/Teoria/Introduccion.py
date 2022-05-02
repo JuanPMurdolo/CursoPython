@@ -1,6 +1,5 @@
 #--------------------------------Variables en Python
 #<nombre var> = <valor>
-#HOla
 nombre = "juan carlos"
 numero = 10
 flotante = 3.14
