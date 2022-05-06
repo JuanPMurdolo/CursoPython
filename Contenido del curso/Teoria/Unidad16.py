@@ -1,4 +1,4 @@
-#POO
+#OOP
 #Clases en Python
 '''
 class <nombreDeLaClase>():
